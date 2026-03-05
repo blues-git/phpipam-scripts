@@ -32,6 +32,7 @@ To see available configuration options, run `phpipam-hosts -h`
 - `python-mysqldb`
 - installed and configured [phpIPAM](http://phpipam.net/) (can be installed on
   a different host than `phpipam-hosts`)
+- python-is-python3 (or anything what gives some python interpreter called "python"
 
 #### Installation
 

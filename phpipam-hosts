@@ -357,10 +357,10 @@ try:
         host = hostname
       else:
         if state != '4':
-          host = args.prefix_dhcp + '-' + re.sub('\.', '-', ip)
+          host = args.prefix_dhcp + '-' + re.sub(r'\.', '-', ip)
           fqdn = host
         else:
-          host = args.prefix_dynamic + '-' + re.sub('\.', '-', ip)
+          host = args.prefix_dynamic + '-' + re.sub(r'\.', '-', ip)
           fqdn = host
 
       # If mac address is specified, check it's validity.
